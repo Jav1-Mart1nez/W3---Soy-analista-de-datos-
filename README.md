@@ -7,7 +7,7 @@ El objetivo de este proyecto es vender nuestros servicios de ánalisis de datos 
 
 ## Hipótesis.
 
-¿Puede ayudar el ánalisis de datos a mejorar las estadísticas de un equipo de baloncesto y por ende lograr mejores resultados?
+¿Puede ayudar el ánalisis de datos a mejorar las estadísticas de un equipo como Los Ángeles Lakers y por ende lograr que consigan mejores resultados?
 
 
 ## Como se ha realizado.
@@ -55,7 +55,7 @@ De los datos analizados, observamos que de los 30 equipos que forman la NBA, Los
 Si hiciesemos una media de los anteriores datos, nos encontramos con que una franquicia del nivel de Los Ángeles Lakers, está en la posición 12ª de la liga, esto quiere decir que el equipo tiene que mejorar en todos los aspectos anteriores.
 
 
-### ¿En que puede ayudar el ánalisis de datos a conseguir estos objetivos.
+### ¿En que puede ayudar el ánalisis de datos a conseguir estos objetivos?.
 
 El ánalisis de datos puede ayudar a la consecución de estos objetivos:
     - Observar cuales son los puntos fuertes y débiles del equipo.
