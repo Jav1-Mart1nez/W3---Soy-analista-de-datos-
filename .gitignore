@@ -131,3 +131,4 @@ dmypy.json
 # Documents
 .DS_Store
 basket_stats.csv
+def_functions.cpython-38.pyc
