@@ -31,16 +31,16 @@ def compare(P1, P2, stats=['GP', 'MIN', '2PM', '2PA', '3PM',
     return results
 
 
-def percentage (P1, stats=['GP', 'MIN','2PM', '2PA', '3PM',
+def percentage (Player, stats=['GP', 'MIN','2PM', '2PA', '3PM',
        '3PA', '1PM', '1PA']):
 
     """Esta función se encarga de devolver el % de aciertos en tiros 
     y los minutos del jugador que queramos consultar"""
     
-    res={"%_acierto en tiros de campo":(P1[stats[2]]/ P1[stats[3]]),
-         "%_acierto en triples":(P1[stats[4]]/ P1[stats[5]]),
-         "%_acierto en tiros libres":(P1[stats[6]]/ P1[stats[7]]),
-         "Minutes":(P1[stats[1]]/ P1[stats[0]])}
+    res={"%_acierto en tiros de campo":(Player[stats[2]]/ Player[stats[3]]),
+         "%_acierto en triples":(Player[stats[4]]/ Player[stats[5]]),
+         "%_acierto en tiros libres":(Player[stats[6]]/ Player[stats[7]]),
+         "Minutes":(Player[stats[1]]/ Player[stats[0]])}
  
     return res
 
@@ -53,8 +53,17 @@ def describe(stat):
     return pd.DataFrame(nba[stat].describe().T)
 
 
-def elige_equipo(team):
+def choose_team(team):
 
     """Esta función devuelve un dataframe del equipo que queremos ver"""
 
     return nba[nba["Team"]==team]
+
+
+def team_stats(stat):
+
+    """Esta función devuelve un dataframe con la suma de la estadística
+    que queremos ver agrupada por equipo, de modo que podamos comparar
+    con un simple vistazo que equipos tienen mejores stats""" 
+
+    return nba.groupby(["Team"]).agg({stat:"sum"})
