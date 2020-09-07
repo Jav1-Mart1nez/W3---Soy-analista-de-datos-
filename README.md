@@ -1,13 +1,13 @@
 # Storytelling-Project
 
-![NBA-logo-png-download-free](NBA-logo-png-download-free.png) 
+![nba-los-angeles-lakers](nba-los-angeles-lakers.png) 
 
 El objetivo de este proyecto es vender nuestros servicios de ánalisis de datos a una franquicia de la NBA, en este caso se trata de nada mas y nada menos que de los Ángeles Lakers. Para ello, vamos a realizar una limpieza de la base de datos obtenida, posteriormente analizaremos los datos de Los Lakers con el vigente campeón de liga, Toronto Raptors, para finalmente pasar a realizar un ánalisis comparativo con el resto de equipos de la liga.  
 
 
 ## Hipótesis.
 
-¿Puede ayudar el ánalisis de datos a mejorar las estadísticas de un equipo como Los Ángeles Lakers y por ende lograr que consigan mejores resultados?
+¿Puede ayudar el ánalisis de datos a mejorar las estadísticas de un equipo como Los Ángeles Lakers y por ende ayudar a la consecución de mejores resultados?
 
 
 ## Como se ha realizado.
